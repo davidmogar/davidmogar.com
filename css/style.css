@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5 {
 
 i.fas, i.fab {
     color: #ff3c50;
+    font-size: 3em;
+    margin-top: 0.5em;
 }
 
 span.position {
@@ -28,7 +30,12 @@ span.position {
 }
 
 .section {
-    padding: 4em 2em;
+    padding: 2em;
+}
+
+.section h2 {
+    font-weight: 600;
+    margin-top: 0;
 }
 
 /* Header */
@@ -72,6 +79,8 @@ header nav ul {
 #info {
     background-color: #f2f9ff;
     color: #072e5c;
+    padding-bottom: 4em;
+    padding-top: 4em;
 }
 
 #info a {
@@ -104,21 +113,66 @@ header nav ul {
 
 /* What I do section */
 
-#what-i-do h2 {
-    font-weight: 600;
-    margin-top: 0;
+#what-i-do {
+    padding-top: 4em;
 }
 
 #what-i-do h3 {
     font-weight: 400;
 }
 
-#what-i-do i {
-    font-size: 3em;
-    margin-top: 0.5em;
+#what-i-do div:last-child p {
+    margin-bottom: 0;
 }
 
-/* Footer section */
+/* Testimonials section */
+
+#testimonials blockquote {
+    margin: 0;
+}
+
+#testimonials div {
+    background-color: #f2f9ff;
+    border-radius: 1em;
+    color: #072e5c;
+    margin: 2.5em 1.5em 0;
+    padding: 2em 2em 2em 4em;
+    position: relative;
+    text-align: left;
+}
+
+#testimonials h3 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+}
+
+#testimonials img {
+    border-radius: 50%;
+    max-width: 70px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: -1.5em;
+    top: -1.5em;
+}
+
+/* A bit more section */
+
+#a-bit-more i {
+    font-size: 3em;
+}
+
+#a-bit-more a:hover i {
+    transform: scale(1.1);
+    transition: all 0.1s ease;
+}
+
+#a-bit-more p a {
+    color: #ff3c50;
+}
+
+/* Footer */
 
 footer {
     background-color: #f2f9ff;
