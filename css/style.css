@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
 
+i.fas, i.fab {
+    color: #ff3c50;
+}
+
 span.position {
     color: #ff3c50;
 }
@@ -99,4 +103,19 @@ header nav ul {
     margin-bottom: 2em;
     max-width: 250px;
     width: 100%;
+}
+
+/* What I do section */
+
+#what-i-do h2 {
+    font-weight: 600;
+}
+
+#what-i-do h3 {
+    font-weight: 400;
+}
+
+#what-i-do i {
+    font-size: 3em;
+    margin-top: 0.5em;
 }
