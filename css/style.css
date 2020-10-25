@@ -25,16 +25,15 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before {
     font-family: 'Flaticon';
     font-style: normal;
-
 }
 
-.flaticon-classroom:before { content: "\f107"; }
-.flaticon-cloud:before { content: "\f104"; }
-.flaticon-cogs:before { content: "\f105"; }
+.flaticon-classroom:before { content: "\f105"; }
+.flaticon-cloud:before { content: "\f103"; }
+.flaticon-cogs:before { content: "\f107"; }
 .flaticon-github:before { content: "\f100"; }
-.flaticon-linkedin:before { content: "\f102"; }
-.flaticon-robot:before { content: "\f103"; }
-.flaticon-teacher:before { content: "\f106"; }
+.flaticon-linkedin:before { content: "\f106"; }
+.flaticon-robot:before { content: "\f102"; }
+.flaticon-teacher:before { content: "\f104"; }
 .flaticon-twitter:before { content: "\f101"; }
 
 /* Global */
@@ -61,6 +60,9 @@ i {
     line-height: 1;
     margin-top: 0.6em;
 }
+
+i.flaticon-classroom { font-size: 2.8em; }
+i.flaticon-linkedin { font-size: 2.8em; }
 
 span.position {
     color: #ff3c50;
