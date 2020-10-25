@@ -28,7 +28,7 @@ span.position {
 }
 
 .section {
-    padding: 2em;
+    padding: 4em 2em;
 }
 
 /* Header */
@@ -71,6 +71,7 @@ header nav ul {
 
 #info {
     background-color: #f2f9ff;
+    color: #072e5c;
 }
 
 #info a {
@@ -91,10 +92,6 @@ header nav ul {
     margin-left: 1em;
 }
 
-#info h1 {
-    color: #072e5c;
-}
-
 #info img {
     border: 1.2em solid white;
     border-radius: 50%;
@@ -109,6 +106,7 @@ header nav ul {
 
 #what-i-do h2 {
     font-weight: 600;
+    margin-top: 0;
 }
 
 #what-i-do h3 {
@@ -118,4 +116,12 @@ header nav ul {
 #what-i-do i {
     font-size: 3em;
     margin-top: 0.5em;
+}
+
+/* Footer section */
+
+footer {
+    background-color: #f2f9ff;
+    color: #072e5c;
+    padding: 2em;
 }
