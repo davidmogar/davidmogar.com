@@ -113,6 +113,10 @@ header nav ul li {
     padding: 0 1em;
 }
 
+header nav ul li:first-of-type {
+    display: none;
+}
+
 header nav ul li a:hover {
     color: #ff3c50;
 }
@@ -258,6 +262,10 @@ footer {
 
     header nav ul {
         margin: 0;
+    }
+
+    header nav ul li:first-of-type {
+        display: inline;
     }
 
     header nav ul li:last-of-type {
