@@ -65,13 +65,17 @@ header nav {
     margin: 3em 0 2em;
 }
 
-header nav li {
+header nav ul {
+    padding-left: 0;
+}
+
+header nav ul li {
     display: inline;
     padding: 0 1em;
 }
 
-header nav ul {
-    padding-left: 0;
+header nav ul li a:hover {
+    color: #ff3c50;
 }
 
 /* Info section */
@@ -131,11 +135,11 @@ header nav ul {
     margin: 0;
 }
 
-#testimonials div {
+#testimonials div.grid-container div {
     background-color: #f2f9ff;
     border-radius: 1em;
     color: #072e5c;
-    margin: 2.5em 1.5em 0;
+    margin: 2.5em 0 0 1.5em;
     padding: 2em 2em 2em 4em;
     position: relative;
     text-align: left;
@@ -178,4 +182,106 @@ footer {
     background-color: #f2f9ff;
     color: #072e5c;
     padding: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    html, body {
+        text-align: left;
+    }
+
+    div.wrapper {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    header {
+        background-color: white;
+        box-shadow: 0 0 2em #d6dee4;
+        columns: 2;
+        height: 2em;
+        left: 0;
+        padding: 1em 2em;
+        position: fixed;
+        right: 0;
+        z-index: 9999;
+    }
+
+    header div {
+        margin: 0;
+    }
+
+    header div span {
+        text-align: center;
+    }
+
+    header nav {
+        margin: 0;
+        padding-top: 0.3em;
+        text-align: right;
+    }
+
+    header nav ul {
+        margin: 0;
+    }
+
+    header nav ul li:last-of-type {
+        padding-right: 0;
+    }
+
+    #info {
+        font-size: 1.1em;
+        padding-top: 8em;
+    }
+
+    #info div.grid-container {
+        column-gap: 5em;
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        padding: 0 6em;
+    }
+
+    #info div.grid-container div {
+        align-self: center;
+    }
+
+    #info img {
+        margin: 0;
+    }
+
+    #what-i-do h2 {
+        margin-bottom: 1em;
+    }
+
+    #what-i-do div.grid-container {
+        column-gap: 3em;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 1em;
+    }
+
+    #what-i-do div.item {
+        column-gap: 1em;
+        display: inline-grid;
+        grid-template-columns: auto auto;
+    }
+
+    #testimonials div.grid-container {
+        column-gap: 3em;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #a-bit-more div.grid-container {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 3em;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
 }
